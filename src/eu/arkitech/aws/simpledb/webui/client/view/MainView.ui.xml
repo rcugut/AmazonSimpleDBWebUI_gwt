@@ -1,0 +1,21 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	</ui:style>
+	<g:HTMLPanel>
+	
+		<g:DeckPanel ui:field="pnl_statusDeck">
+			<g:InlineLabel ui:field="lbl_emptyStatus" height="16px" />
+
+			<g:InlineLabel ui:field="lbl_simpleStatus"/>
+			
+			<g:DisclosurePanel ui:field="pnl_detailedStatus" animationEnabled="true">
+				<g:header> </g:header>
+			</g:DisclosurePanel>
+		</g:DeckPanel>
+		
+		<g:SimplePanel ui:field="pnl_content" />
+	
+	</g:HTMLPanel>
+</ui:UiBinder> 

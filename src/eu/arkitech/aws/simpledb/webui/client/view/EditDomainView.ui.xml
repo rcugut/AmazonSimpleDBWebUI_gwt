@@ -1,0 +1,22 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.sqlDomain {
+			font-style: italic;
+			font-weight: bold;
+		}
+		
+	</ui:style>
+	<g:HTMLPanel width="100%">
+	
+		<span style="font-size: 16px">SQL: select * from '<g:InlineLabel ui:field="lbl_sqlSdbDomain" styleName="{style.sqlDomain}" />' where </span><g:TextBox ui:field="input_sqlWhereClause" maxLength="500" visibleLength="40" /> <g:Button ui:field="btn_sdbSqlExecute">Execute</g:Button>
+		
+		<br />
+		
+		<g:Tree ui:field="tree_domain" width="100%" />
+		
+		
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,57 @@
+.arki-itemLabel
+{
+	
+}
+
+.arki-treeItemActionLink
+{
+	font-weight: normal;
+	padding-left: 10px;
+}
+
+
+.arki-itemPanel
+{
+	min-width: 300px;
+}
+
+.arki-itemPanel .arki-treeItemActionLink
+{
+	display: none;
+}
+.arki-itemPanel:hover .arki-treeItemActionLink
+{
+	display: inline;
+}
+
+
+.arki-attrPanel
+{
+	min-width: 300px;
+}
+
+.arki-attrPanel .arki-treeItemActionLink
+{
+	display: none;
+}
+.arki-attrPanel:hover .arki-treeItemActionLink
+{
+	display: inline;
+}
+
+
+.arki-attrValuePanel
+{
+	min-width: 300px;
+}
+
+.arki-attrValuePanel .arki-treeItemActionLink
+{
+	display: none;
+}
+.arki-attrValuePanel:hover .arki-treeItemActionLink
+{
+	display: inline;
+}
+
+
