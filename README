@@ -1,0 +1,7 @@
+== AmazonSimpleDB WebUI client side
+
+This is a web frontend created to help browse/edit the data in Amazon SimpleDB
+This is just the frontend implemntation using GWT, and it needs a backend sitting on the same domain as where this is published. The backend will execute commands to handle data in Amazon SimpleDB.
+The reason it needs a backend is because of the security restrictions imposed by browsers for making javascript requests to another domain than the domain they're served.
+There is an example backend implementation in Rails 3 on github (project called AmazonSimpleDBWebUI_ror)
+
